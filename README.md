@@ -12,6 +12,19 @@ This repository is designed to accompany the [Parler-TTS library](https://github
 
 ---------
 
+### TODOs
+- [ ] Accent classification training script
+- [ ] Accent classification inference script
+- [x] Better speaking rate estimation with long silence removal
+- [x] Better SNR estimation with other SNR models
+- [ ] Add more annotation categories
+- [ ] Multilingual speaking rate estimation
+
+- [ ] (long term) Benchmark for best audio dataset format
+- [ ] (long term) Compatibility with streaming
+
+---------
+
 ## 📖 Quick Index
 * [Requirements](#set-up)
 * [Annotating datasets to fine-tune Parler-TTS](#annotating-datasets-to-fine-tune-parler-tts)
@@ -393,14 +406,3 @@ If you found this repository useful, please consider citing this work and also t
       primaryClass={cs.SD}
 }
 ```
-
-### TODOs
-- [ ] Accent classification training script
-- [ ] Accent classification inference script
-- [x] Better speaking rate estimation with long silence removal
-- [x] Better SNR estimation with other SNR models
-- [ ] Add more annotation categories
-- [ ] Multilingual speaking rate estimation
-
-- [ ] (long term) Benchmark for best audio dataset format
-- [ ] (long term) Compatibility with streaming
